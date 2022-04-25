@@ -1,4 +1,6 @@
-FROM bharathdoceker503/myimage
+FROM ubuntu
+
+RUN apt-get update
 
 RUN apt-get install apache2
 
